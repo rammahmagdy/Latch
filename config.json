@@ -3,5 +3,17 @@
   "message": null,
   "minimumVersion": "1.6",
   "requireLicense": false,
-  "infoURL": "https://github.com/rammahmagdy/Latch"
+  "infoURL": "https://github.com/rammahmagdy/Latch",
+  "latest": {
+    "version": "1.7",
+    "notes": "Latch can now update itself. When a new version is out you'll see an update window with what's new, and you can install it with one click, or turn on automatic updates. Every download is verified with SHA-256 before it's installed.",
+    "mac": {
+      "url": "https://github.com/rammahmagdy/Latch/releases/download/v1.7/Latch-1.7.dmg",
+      "sha256": "029b6c5278386cd6154da9f34babc1c3b96691d1a57e09a928438bbec44e3104"
+    },
+    "windows": {
+      "url": "https://github.com/rammahmagdy/Latch/releases/download/v1.7/Latch-1.7-Windows.zip",
+      "sha256": "a12ee14c1497269b81d87f593b3345bacf7d5dc48b24894a77a9d412170cc284"
+    }
+  }
 }

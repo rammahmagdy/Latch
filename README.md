@@ -18,8 +18,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/rammahmagdy/Latch/releases/latest/download/Latch-1.6.dmg"><b>⬇ Download for Mac (DMG, 2.0 MB)</b></a>
-  &nbsp;·&nbsp; <a href="https://github.com/rammahmagdy/Latch/releases/latest/download/Latch-1.6-Windows.zip"><b>⬇ Windows (beta, 69 MB)</b></a>
+  <a href="https://github.com/rammahmagdy/Latch/releases/latest/download/Latch-1.7.dmg"><b>⬇ Download for Mac (DMG, 2.0 MB)</b></a>
+  &nbsp;·&nbsp; <a href="https://github.com/rammahmagdy/Latch/releases/latest/download/Latch-1.7-Windows.zip"><b>⬇ Windows (beta, 69 MB)</b></a>
   &nbsp;·&nbsp; <a href="#العربية">العربية</a>
 </p>
 
@@ -51,6 +51,7 @@ Lend someone your Mac and WhatsApp, Messages, Photos, your banking app or a priv
 - **Hard to kill.** Force-quit Latch and it's back in under a second with everything locked again. Quit requests from Activity Monitor or scripts are refused, so only Latch's own protected menu can quit it.
 - **Lock system tools (optional).** One switch also locks Activity Monitor, Terminal, iTerm, Script Editor and System Settings, the places someone would go to stop Latch.
 - **Opens at login**, and runs only in the menu bar with no Dock icon.
+- **Updates itself.** New versions install with one click, or automatically if you turn that on. Every download is checked against a SHA-256 fingerprint before it's installed.
 - **Works on any keyboard layout.** The password field switches to an ASCII layout while you type, so an Arabic or other non-Latin layout won't make a correct password fail.
 - **Tiny and native.** Pure SwiftUI and AppKit, about 1,000 lines, no dependencies, universal binary.
 
@@ -58,7 +59,7 @@ Lend someone your Mac and WhatsApp, Messages, Photos, your banking app or a priv
 
 ## Install
 
-1. Download **[Latch-1.6.dmg](https://github.com/rammahmagdy/Latch/releases/latest/download/Latch-1.6.dmg)** and open it.
+1. Download **[Latch-1.7.dmg](https://github.com/rammahmagdy/Latch/releases/latest/download/Latch-1.7.dmg)** and open it.
 2. Drag **Latch** into **Applications**.
 3. Open Latch. A 🔒 icon appears in the menu bar. Click it, press **+**, and pick the apps to lock.
 
@@ -70,7 +71,7 @@ Lend someone your Mac and WhatsApp, Messages, Photos, your banking app or a priv
 
 Latch for Windows has the same features as the Mac version: locked apps and folders, **Windows Hello** (fingerprint, face or PIN) or your password in one card, a tray icon instead of the menu bar, Explorer right-click **Open with Latch** / **Lock with Latch** (on Windows 11 under *Show more options*), and a watchdog that brings Latch back if it's ended.
 
-1. Download **[Latch-1.6-Windows.zip](https://github.com/rammahmagdy/Latch/releases/latest/download/Latch-1.6-Windows.zip)**, unzip it, and move `Latch.exe` somewhere permanent.
+1. Download **[Latch-1.7-Windows.zip](https://github.com/rammahmagdy/Latch/releases/latest/download/Latch-1.7-Windows.zip)**, unzip it, and move `Latch.exe` somewhere permanent.
 2. Open it. If SmartScreen says *Windows protected your PC*, click **More info → Run anyway** (Latch isn't code-signed yet).
 3. Click the lock icon in the system tray, press **+**, and pick apps or folders.
 
@@ -157,11 +158,12 @@ For any use the license doesn't cover, ask first in [Issues](https://github.com/
 - الإعدادات نفسها محمية، ومحدش يقدر يغيّرها أو يقفل Latch من غير ما يتأكد إنه أنت.
 - **صعب يتقفل غصب عنك:** لو حد عمل Force Quit لـLatch، بيرجع يشتغل في أقل من ثانية ويقفل كل حاجة تاني. وأي محاولة قفل من Activity Monitor أو سكريبت بيرفضها.
 - اختيار **Lock system tools** بيقفل كمان Activity Monitor والـTerminal والـSystem Settings، اللي ممكن حد يستخدمها علشان يوقف Latch.
+- **بيحدّث نفسه:** لما تنزل نسخة جديدة بتظهرلك رسالة وتحدّث بدوسة واحدة، أو تخليه يحدّث نفسه لوحده.
 - بيفتح لوحده مع الماك.
 - بيشتغل حتى لو الكيبورد عربي، لأن خانة الباسورد بتحوّل للإنجليزي وأنت بتكتب.
 
 ### التثبيت
-١. نزّل **[Latch-1.6.dmg](https://github.com/rammahmagdy/Latch/releases/latest/download/Latch-1.6.dmg)** وافتحه.<br>
+١. نزّل **[Latch-1.7.dmg](https://github.com/rammahmagdy/Latch/releases/latest/download/Latch-1.7.dmg)** وافتحه.<br>
 ٢. اسحب Latch لفولدر Applications.<br>
 ٣. افتحه، هتلاقي أيقونة 🔒 فوق. دوس عليها، ودوس +، واختار التطبيقات.
 
@@ -178,7 +180,7 @@ For any use the license doesn't cover, ask first in [Issues](https://github.com/
 
 ### نسخة الويندوز (تجريبية)
 نفس مميزات نسخة الماك، بس بـWindows Hello (بصمة أو وش أو PIN) بدل التاتش آي دي، وأيقونة جنب الساعة بدل البار اللي فوق.
-نزّل **[Latch-1.6-Windows.zip](https://github.com/rammahmagdy/Latch/releases/latest/download/Latch-1.6-Windows.zip)** وفك الضغط وشغّل Latch.exe. لو ظهرت رسالة "Windows protected your PC" دوس More info وبعدين Run anyway.
+نزّل **[Latch-1.7-Windows.zip](https://github.com/rammahmagdy/Latch/releases/latest/download/Latch-1.7-Windows.zip)** وفك الضغط وشغّل Latch.exe. لو ظهرت رسالة "Windows protected your PC" دوس More info وبعدين Run anyway.
 
 ### الترخيص
 Latch مجاني للاستخدام الشخصي، والكود بتاعه مش متاح للعامة. كل الحقوق محفوظة © 2026 rammahmagdy بموجب [ترخيص PolyForm Strict 1.0.0](LICENSE).
