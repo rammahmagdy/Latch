@@ -5,7 +5,7 @@
 <h1 align="center">Latch</h1>
 
 <p align="center">
-  <b>Lock any Mac app or folder behind Touch ID or a password.</b><br>
+  <b>Lock any app or folder behind Touch ID, Windows Hello or a password.</b><br>
   Lives in the menu bar. No accounts, no tracking, nothing about you leaves your Mac.
 </p>
 
@@ -18,7 +18,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/rammahmagdy/Latch/releases/latest/download/Latch-1.6.dmg"><b>⬇ Download Latch 1.6 (DMG, 2.0 MB)</b></a>
+  <a href="https://github.com/rammahmagdy/Latch/releases/latest/download/Latch-1.6.dmg"><b>⬇ Download for Mac (DMG, 2.0 MB)</b></a>
+  &nbsp;·&nbsp; <a href="https://github.com/rammahmagdy/Latch/releases/latest/download/Latch-1.6-Windows.zip"><b>⬇ Windows (beta, 69 MB)</b></a>
   &nbsp;·&nbsp; <a href="#العربية">العربية</a>
 </p>
 
@@ -64,6 +65,16 @@ Lend someone your Mac and WhatsApp, Messages, Photos, your banking app or a priv
 > [!NOTE]
 > **First launch:** Latch is ad-hoc signed, not notarized by Apple, so macOS will say it can't verify the developer.
 > Go to **System Settings → Privacy & Security**, scroll down, and click **Open Anyway**. You only do this once.
+
+## Windows (beta)
+
+Latch for Windows has the same features as the Mac version: locked apps and folders, **Windows Hello** (fingerprint, face or PIN) or your password in one card, a tray icon instead of the menu bar, Explorer right-click **Open with Latch** / **Lock with Latch** (on Windows 11 under *Show more options*), and a watchdog that brings Latch back if it's ended.
+
+1. Download **[Latch-1.6-Windows.zip](https://github.com/rammahmagdy/Latch/releases/latest/download/Latch-1.6-Windows.zip)**, unzip it, and move `Latch.exe` somewhere permanent.
+2. Open it. If SmartScreen says *Windows protected your PC*, click **More info → Run anyway** (Latch isn't code-signed yet).
+3. Click the lock icon in the system tray, press **+**, and pick apps or folders.
+
+Needs Windows 10 (2004) or Windows 11, 64-bit. This is a beta: please report anything odd in [Issues](https://github.com/rammahmagdy/Latch/issues).
 
 ## Privacy & security
 
@@ -164,6 +175,10 @@ For any use the license doesn't cover, ask first in [Issues](https://github.com/
 - بصمتك بيتعامل معاها نظام أبل، وLatch عمره ما بيشوفها.
 
 **ليه اسمه Latch؟** الـLatch هو الترباس الصغير اللي بيقفل الباب: بسيط وخفيف وموجود على طول. ده بالظبط التطبيق: مش خزنة، لكنه قفل سريع يمنع أي حد من اللي مش بتاعه.
+
+### نسخة الويندوز (تجريبية)
+نفس مميزات نسخة الماك، بس بـWindows Hello (بصمة أو وش أو PIN) بدل التاتش آي دي، وأيقونة جنب الساعة بدل البار اللي فوق.
+نزّل **[Latch-1.6-Windows.zip](https://github.com/rammahmagdy/Latch/releases/latest/download/Latch-1.6-Windows.zip)** وفك الضغط وشغّل Latch.exe. لو ظهرت رسالة "Windows protected your PC" دوس More info وبعدين Run anyway.
 
 ### الترخيص
 Latch مجاني للاستخدام الشخصي، والكود بتاعه مش متاح للعامة. كل الحقوق محفوظة © 2026 rammahmagdy بموجب [ترخيص PolyForm Strict 1.0.0](LICENSE).
